@@ -1,0 +1,351 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+
+body {
+    background-color: rgb(23, 120, 231);
+}
+
+.ll {
+
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(73, 70, 70, 0.263);
+
+
+
+
+
+}
+
+
+
+
+
+.navele {
+
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navele a {
+    color: white;
+    font-weight: 10px;
+    padding: 15px;
+    text-decoration: none;
+
+}
+
+.nav-im {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+
+.main {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(23, 120, 231);
+
+
+}
+
+
+.left {
+    width: 40%;
+    height: 60vh;
+    margin-top: 35px;
+
+
+}
+
+.left h1 {
+    font-size: 85px;
+    width: 70%;
+    height: 60px;
+    margin-bottom: 60px;
+
+}
+
+.left h4 {
+    font-size: 55px;
+    width: 70%;
+    height: 60px;
+    margin-bottom: 50px;
+
+}
+
+
+.left h3 {
+    font-size: 75px;
+    width: 70%;
+    height: 60px;
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+.left p {
+    color: white;
+}
+
+
+.right {
+    width: 40%;
+    height: 60vh;
+    margin-top: 50px;
+
+}
+
+.right img {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+
+
+
+}
+
+
+
+.searchbar {
+    width: 75%;
+    height: 10vh;
+}
+
+.searchbutton {
+    padding-right: 400px;
+    color: aqua;
+    display: inline;
+}
+
+.content {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    color: #34495E;
+    background-color: white;
+}
+
+.content h3 {
+    padding-top: 25px;
+
+    font-size: 5lvh;
+
+}
+
+.middle {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+}
+
+.lefthand {
+    width: 60%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    color: #34495E;
+    align-items: center;
+    padding: 0px 60px;
+
+    margin-left: 40px;
+
+}
+
+.lefthand p {
+    font-weight: 4lvh;
+}
+
+
+.righthand {
+    width: 30%;
+    height: 250px;
+    background-color: #00008b;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 7px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+
+
+}
+
+.righthand h3 {
+    color: white;
+    font-size: 4lvh;
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px;
+    margin-right: 80px;
+
+
+
+
+
+}
+
+.righthand p {
+    color: white;
+    font-size: 3lvh;
+    display: flex;
+    margin-left: 20px;
+
+}
+
+
+
+.lastheadings {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+
+}
+
+.up {
+
+    color: #34495E;
+    justify-content: space-between;
+    padding-left: 680px;
+}
+
+
+
+.lastheadings-2 {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+}
+
+.lp {
+
+    justify-content: space-between;
+    color: black;
+    justify-content: space-between;
+    padding-left: 580px;
+}
+
+.places {
+    width: 100%;
+    height: 290px;
+
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+
+
+
+}
+
+
+.place {
+    width: 25%;
+    height: 200px;
+
+    margin-top: 120px;
+
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    /* padding: 10px; */
+    margin: 25px;
+}
+
+.place pre {
+    font-size: large;
+
+}
+
+.vid1 {
+
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+
+}
+
+.space {
+    width: 100%;
+    height: 45px;
+    background-color: white;
+
+
+}
+
+.LAST {
+    background-image: radial-gradient(#05abf2, #1e66d9);
+}
+
+.L1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 3lvh;
+}
+
+.L2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+
+    font-size: 3lvh;
+    margin-top: 45px;
+
+}
+
+.L3 {
+
+
+    width: 100%;
+    /* height: 80px; */
+
+
+
+
+    margin-top: 30px;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+
+}
+
+.L3 a {
+    color: White;
+    text-decoration: none;
+
+}
